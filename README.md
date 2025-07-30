@@ -2,7 +2,8 @@
 Unidirectional Secure Notification System
 
 ## Project Structure
-'├── app/
+```
+├── app/
 │   ├── config.py
 │   ├── domain/
 │   │   └── notification.py
@@ -11,7 +12,8 @@ Unidirectional Secure Notification System
 │   └── use_cases/
 │       └── send_notification.py
 ├── config.json
-└── main.py'
+└── main.py
+```
 
 ## 🔧 Technical Summary [Basic Getting Started Implementation]
 
