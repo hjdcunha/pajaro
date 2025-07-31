@@ -86,10 +86,10 @@ def send_notification():
     else:
         logger.error("No CVE fetched, notifications not sent.")
 
-send_notification()
+
 
 # Uncomment to run every hour
-# schedule.every().hour.at(":05").do(send_notification)
-# while True:
-#     schedule.run_pending()
-#     time.sleep(1)
+schedule.every().hour.at(":00").do(send_notification)
+while True:
+    schedule.run_pending()
+    time.sleep(1)
